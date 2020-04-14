@@ -34,7 +34,7 @@
 			         <environment>Sandbox</environment>
 			         <muleVersion>4.2.2</muleVersion>
 			         <applicationName>worldtimezone-serive</applicationName>
-			         <objectStore>v2</objectStore>
+			         <objectStoreV1>false</objectStoreV1>
 			      </cloudHubDeployment>
 				</configuration>
 			</plugin>
