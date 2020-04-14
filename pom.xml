@@ -26,6 +26,16 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
+					<cloudHubDeployment>
+						<username>muleplayer12</username>
+						<password>Mulesoft2020</password>
+						<environment>Sandbox</environment>
+						<workers>1</workers>
+						<workersType>Micro</workersType>
+						<applicationName>worldtimezone-service</applicationName>
+						<muleVersion>4.2.2</muleVersion>
+						
+					</cloudHubDeployment>
 				</configuration>
 			</plugin>
 		</plugins>
