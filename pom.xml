@@ -29,6 +29,7 @@
 				<extensions>true</extensions>
 				<configuration>
 					<cloudHubDeployment>
+						<uri>https://anypoint.mulesoft.com</uri>
 						<username>muleplayer12</username>
 						<password>Mulesoft2020</password>
 						<environment>Sandbox</environment>
