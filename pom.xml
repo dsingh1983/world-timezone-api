@@ -15,7 +15,7 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
 		<app.runtime>4.2.2</app.runtime>
-		<mule.maven.plugin.version>3.3.5</mule.maven.plugin.version>
+		<mule.maven.plugin.version>3.1.6</mule.maven.plugin.version>
 	</properties>
 
 	<build>
@@ -26,15 +26,39 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
+				<!-- 
 					<cloudHubDeployment>
-						<username>muleplayer12</username>
-						<password>Mulesoft2020</password>
+						<username>psl_deepak_singh</username>						
 						<environment>Sandbox</environment>
 						<workers>1</workers>
 						<workerType>Micro</workerType>
 						<applicationName>worldtimezone-service</applicationName>
+						<password>Mulesoft2020</password>
 						<muleVersion>4.2.2</muleVersion>
 					</cloudHubDeployment>
+				 -->	
+				<!--  	
+					<cloudHubDeployment>
+			         <uri>https://anypoint.mulesoft.com</uri>
+			         <username>muleplayer12</username>
+			         <password>Mulesoft2020</password>         
+			         <workers>1</workers>
+			         <workerType>Micro</workerType>
+			         <environment>Sandbox</environment>
+			         <muleVersion>4.2.2</muleVersion>
+			         <applicationName>Demo-Application</applicationName>
+			      </cloudHubDeployment>
+			    -->
+				    <cloudHubDeployment>
+			            <uri>https://anypoint.mulesoft.com</uri>
+			            <muleVersion>4.2.2</muleVersion>
+			            <username>muleplayer12</username>
+			            <password>Mulesoft2020</password>
+			            <applicationName>worldtimezone-demoservice</applicationName>
+			            <environment>Sandbox</environment>
+			            <workers>1</workers>
+			         	<workerType>Micro</workerType>			           
+			        </cloudHubDeployment>  
 				</configuration>
 			</plugin>
 		</plugins>
