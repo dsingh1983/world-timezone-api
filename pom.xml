@@ -23,19 +23,18 @@
 			<plugin>
 				<groupId>org.mule.tools.maven</groupId>
 				<artifactId>mule-maven-plugin</artifactId>
-				<version>3.6.3</version>
+				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
 					<cloudHubDeployment>
-			         <username>muleplayer12</username>
-			         <password>Mulesoft2020</password>         
-			         <workers>1</workers>
-			         <workerType>Micro</workerType>
-			         <environment>Sandbox</environment>
-			         <muleVersion>4.2.2</muleVersion>
-			         <applicationName>worldtimezone-serive</applicationName>
-			         <objectStoreV2>true</objectStoreV2>
-			      </cloudHubDeployment>
+						<username>muleplayer12</username>
+						<password>Mulesoft2020</password>
+						<environment>Sandbox</environment>
+						<workers>1</workers>
+						<workerType>Micro</workerType>
+						<applicationName>worldtimezone-service</applicationName>
+						<muleVersion>4.2.2</muleVersion>
+					</cloudHubDeployment>
 				</configuration>
 			</plugin>
 		</plugins>
